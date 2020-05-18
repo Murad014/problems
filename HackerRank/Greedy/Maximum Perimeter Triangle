@@ -22,16 +22,12 @@ int main(){
         for(int r2 = r+1; r2 < arr.size(); r2++){
             for(int r3 = r2 + 1; r3 < arr.size(); r3++){
                 if(check(arr[r], arr[r2], arr[r3])){
-                    if(test == 0) {
-                        cout << arr[r3] << " " << arr[r2] << " " << arr[r] << endl;
-                    }
-                    test = 1;
+                    cout << arr[r3] << " " << arr[r2] << " " << arr[r] << endl;
+                    return 0;
+
                 }
             }
         }
     }
-    if(test == 0){
-        cout<<-1;
-
-    }
+    cout<<-1;
 }
