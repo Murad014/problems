@@ -1,7 +1,0 @@
-/*
-    a = min(LAT_N);
-    b = min(LONG_W);
-    c = max(LAT_N);
-    d = max(LONG_W);
-*/
-SELECT format(abs(max(LAT_N) - min(LAT_N)) + abs(max(LONG_W) - min(LONG_W)), 4) FROM STATION;
