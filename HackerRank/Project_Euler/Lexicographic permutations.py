@@ -1,7 +1,7 @@
 import math
 
 ans = ""
-
+ 
 
 def solveSub(n, string, q):  # N = 3, S = "abc"
     global ans
