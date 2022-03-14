@@ -21,7 +21,7 @@ public class CompilationErrors{
 
 			if(a != b){
 				ans.add(list01.get(i));
-				//System.out.println("FUCK => " + list01.get(i) + " <-> " + list02.get(i));
+		
 				break;
 			}
 
