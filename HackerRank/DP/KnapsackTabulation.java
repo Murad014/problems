@@ -6,7 +6,10 @@ public class KnapSackTabulation{
 	static Scanner sc = new Scanner(System.in);
 
 	static public void Solve(int n, int k, List<Integer> list){
-		int[][] arr = new int[k+1][k+1];
+
+		int maxIndex = Math.max(k, list.size());
+
+		int[][] arr = new int[maxIndex+1][maxIndex+1];
 		int max = 0;
 
 

@@ -19,7 +19,7 @@ def solve(s):
 
 
 
-t = int(input())
+t = int(int(input()))
 
 for _ in range(t):
 	s = input()
